@@ -2,7 +2,7 @@
 
 [source,groovy]
 ---------------
-include::{projectdir}/src/main/groovy/groovy/midi/GroovyMidi.groovy[]
+include::{docdir}/src/main/groovy/groovy/midi/GroovyMidi.groovy[]
 ---------------
 
 The DSL is implemented with just a couple simple builders.
@@ -11,14 +11,14 @@ The DSL is implemented with just a couple simple builders.
 
 [source,groovy]
 ---------------
-include::{projectdir}/src/main/groovy/groovy/midi/builder/ChannelBuilder.groovy[]
+include::{docdir}/src/main/groovy/groovy/midi/builder/ChannelBuilder.groovy[]
 ---------------
 
 `groovy.midi.builder.NoteBuilder`:
 
 [source,groovy]
 ---------------
-include::{projectdir}/src/main/groovy/groovy/midi/builder/NoteBuilder.groovy[]
+include::{docdir}/src/main/groovy/groovy/midi/builder/NoteBuilder.groovy[]
 ---------------
 
 Note the use of the `@DelegatesTo` annotation.  Annotating a Closure method

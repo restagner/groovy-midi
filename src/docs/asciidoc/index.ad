@@ -2,16 +2,16 @@
 
 == Introduction
 
-include::introduction.ad[]
+include::{docdir}/src/docs/asciidoc/introduction.ad[]
 
 == Usage
 
-include::usage.ad[]
+include::{docdir}/src/docs/asciidoc/usage.ad[]
 
 == Examples
 
-include::examples.ad[]
+include::{docdir}/src/docs/asciidoc/examples.ad[]
 
 == Implementation Notes
 
-include::implementation.ad[]
+include::{docdir}/src/docs/asciidoc/implementation.ad[]
